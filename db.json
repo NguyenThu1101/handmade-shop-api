@@ -1,0 +1,697 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "c2fc71c861a5ac9757775ceaaccbd69707333375a6fb81a595f36179b0b0ec5a",
+      "role": "admin",
+      "online": true,
+      "createdAt": "5/27/2026"
+    },
+    {
+      "id": 1781248606669,
+      "email": "test2@gmail.com",
+      "password": "8622f0f69c91819119a8acf60a248d7b36fdb7ccf857ba8f85cf7f2767ff8265",
+      "role": "user",
+      "online": false,
+      "createdAt": "12/6/2026"
+    },
+    {
+      "id": 1781251485910,
+      "email": "kimthunguyen231@gmail.com",
+      "password": "9a3842ac8db82eba14548886d28554e39590a434beaed85e6c4420824f9b27c1",
+      "role": "user",
+      "online": false,
+      "createdAt": "6/12/2026"
+    },
+    {
+      "id": 1781259800253,
+      "email": "test3@gmail.com",
+      "password": "8622f0f69c91819119a8acf60a248d7b36fdb7ccf857ba8f85cf7f2767ff8265",
+      "role": "user",
+      "online": false,
+      "createdAt": "6/12/2026"
+    },
+    {
+      "id": 1781754820060,
+      "email": "test4@gmail.com",
+      "password": "8622f0f69c91819119a8acf60a248d7b36fdb7ccf857ba8f85cf7f2767ff8265",
+      "role": "user",
+      "online": true,
+      "createdAt": "18/6/2026"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Vòng tay handmade",
+      "category": "Vòng tay",
+      "code": "VT01",
+      "stock": 20,
+      "sold": 35,
+      "price": 75000,
+      "thumbnail": "https://i.pinimg.com/736x/e8/a1/91/e8a191fdf51791a08ecc74d1c320f6c8.jpg",
+      "desc": "Chẳng cần cầu kỳ, chiếc vòng tay này chính là người bạn đồng hành 'vừa vặn' cho mọi bộ trang phục. Với màu sắc nhã nhặn và đường nét thủ công tỉ mỉ, vòng tay mang lại cảm giác ấm áp, giúp cổ tay bạn trông thanh mảnh và cuốn hút hơn.",
+      "rating": 4.5,
+      "reviewCount": 120,
+      "design": [
+        {
+          "name": "Mẫu 1",
+          "img": "https://i.pinimg.com/736x/e8/a1/91/e8a191fdf51791a08ecc74d1c320f6c8.jpg"
+        },
+        {
+          "name": "Mẫu 2",
+          "img": "https://i.pinimg.com/736x/8f/45/ee/8f45ee59d727d6a4ecf341f2cde442dd.jpg"
+        },
+        {
+          "name": "Mẫu 3",
+          "img": "https://i.pinimg.com/736x/d4/cd/3a/d4cd3a760c826cf5f3c416432215e558.jpg"
+        },
+        {
+          "name": "Mẫu 4",
+          "img": "https://i.pinimg.com/736x/7c/61/68/7c61682397f75cb17b1932b3666d8ec5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dây chuyền handmade",
+      "category": "Dây chuyền",
+      "code": "DC01",
+      "stock": 10,
+      "sold": 25,
+      "price": 89000,
+      "thumbnail": "https://i.pinimg.com/1200x/b6/31/16/b631161e7ef11e809a7d14ac8f79e021.jpg",
+      "desc": "Sợi dây chuyền thanh mảnh giúp tôn lên xương quai xanh quyến rũ. Đây là món phụ kiện hoàn hảo để kết hợp cùng những chiếc áo phông đơn giản hay váy hoa nhí, mang lại cho bạn vẻ ngoài ngọt ngào và tràn đầy năng lượng.",
+      "rating": 4.5,
+      "reviewCount": 80,
+      "design": [
+        {
+          "name": "Mẫu 1",
+          "img": "https://i.pinimg.com/1200x/b6/31/16/b631161e7ef11e809a7d14ac8f79e021.jpg"
+        },
+        {
+          "name": "Mẫu 2",
+          "img": "https://i.pinimg.com/736x/c8/a1/94/c8a19448464162e6756ef2703f851ba7.jpg"
+        },
+        {
+          "name": "Mẫu 3",
+          "img": "https://i.pinimg.com/736x/6c/25/ff/6c25ff4cd07219d1976b6fcba01c0c3b.jpg"
+        },
+        {
+          "name": "Mẫu 4",
+          "img": "https://i.pinimg.com/736x/fa/54/c8/fa54c825cca2776ba2b42a3d9e775db7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kẹp tóc handmade",
+      "category": "Kẹp tóc",
+      "code": "KT01",
+      "stock": 15,
+      "sold": 55,
+      "price": 25000,
+      "thumbnail": "https://i.pinimg.com/736x/ae/17/38/ae1738bdb4fbd1b3e37a562bc0ac490a.jpg",
+      "desc": "Một 'vũ khí' nhỏ nhưng có võ giúp mái tóc gọn gàng mà vẫn điệu đà. Kẹp tóc handmade với thiết kế độc bản sẽ giúp bạn nổi bật trong những tấm hình selfie và giữ cho gương mặt luôn bừng sáng, tươi tắn cả ngày dài.",
+      "rating": 4.3,
+      "reviewCount": 80,
+      "design": [
+        {
+          "name": "Mẫu 1",
+          "img": "https://i.pinimg.com/736x/ae/17/38/ae1738bdb4fbd1b3e37a562bc0ac490a.jpg"
+        },
+        {
+          "name": "Mẫu 2",
+          "img": "https://i.pinimg.com/736x/d1/38/7c/d1387c71448650248ac434fcee6ae5b2.jpg"
+        },
+        {
+          "name": "Mẫu 3",
+          "img": "https://i.pinimg.com/1200x/65/60/53/65605386cd2fae7d694c122780cfa443.jpg"
+        },
+        {
+          "name": "Mẫu 4",
+          "img": "https://i.pinimg.com/736x/cb/0e/da/cb0eda614a5552ace66c750e7d2c6541.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Móc khóa handmade",
+      "category": "Móc khóa",
+      "code": "MK01",
+      "stock": 20,
+      "sold": 20,
+      "price": 59000,
+      "thumbnail": "https://i.pinimg.com/736x/de/9d/06/de9d0648d382ec8f35cb077ea4087149.jpg",
+      "desc": "Để những chùm chìa khóa hay balo không còn đơn điệu, một chiếc móc khóa nhỏ xinh sẽ mang lại niềm vui mỗi khi bạn nhìn thấy. Đây cũng là món quà 'nhỏ mà có võ' để dành tặng hội bạn thân hoặc 'người ấy' đó nha!",
+      "rating": 4.6,
+      "reviewCount": 110,
+      "design": [
+        {
+          "name": "Mẫu 1",
+          "img": "https://i.pinimg.com/736x/de/9d/06/de9d0648d382ec8f35cb077ea4087149.jpg"
+        },
+        {
+          "name": "Mẫu 2",
+          "img": "https://i.pinimg.com/736x/f1/c2/f0/f1c2f0e375a812cb563a3560da2aeb10.jpg"
+        },
+        {
+          "name": "Mẫu 3",
+          "img": "https://i.pinimg.com/736x/cd/ad/20/cdad200994c0ef4cb2b426ae8e9d94b3.jpg"
+        },
+        {
+          "name": "Mẫu 4",
+          "img": "https://i.pinimg.com/736x/ca/7a/28/ca7a288f0136d59bb9a353981ca48682.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dây đeo điện thoại handmade",
+      "category": "Dây đeo điện thoại",
+      "code": "DDT01",
+      "stock": 10,
+      "sold": 40,
+      "price": 65000,
+      "thumbnail": "https://i.pinimg.com/1200x/97/dd/f3/97ddf3f727c372666a39fe580513022e.jpg",
+      "desc": "Không chỉ giúp bảo vệ điện thoại khỏi rơi rớt, dây đeo handmade còn là phụ kiện thời trang cực trendy. Mỗi bước đi, sợi dây đung đưa theo nhịp sẽ khiến chiếc dế yêu trở nên cá tính và mang đậm dấu ấn riêng.",
+      "rating": 4.4,
+      "reviewCount": 90,
+      "design": [
+        {
+          "name": "Mẫu 1",
+          "img": "https://i.pinimg.com/1200x/ff/b2/d9/ffb2d9299782b28eda9ec5bc541950f9.jpg"
+        },
+        {
+          "name": "Mẫu 2",
+          "img": "https://i.pinimg.com/736x/8b/f3/a9/8bf3a95c0e59e57e7c0af84bc592b1a9.jpg"
+        },
+        {
+          "name": "Mẫu 3",
+          "img": "https://i.pinimg.com/1200x/3e/25/4e/3e254e35ba4ad72d165a843ea836f430.jpg"
+        },
+        {
+          "name": "Mẫu 4",
+          "img": "https://i.pinimg.com/736x/ed/0e/dd/ed0eddcae40c637a70fcd7ff88284ea7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ví cầm tay handmade",
+      "category": "Ví cầm tay",
+      "code": "VC01",
+      "stock": 15,
+      "sold": 30,
+      "price": 105000,
+      "thumbnail": "https://i.pinimg.com/736x/3b/f7/07/3bf707c5ccaae10c90e0e187a02c80c9.jpg",
+      "desc": "Nhỏ gọn nhưng đựng được cả 'thế giới' con gái bên trong. Chiếc ví với chất liệu mềm mại và đường may chắc chắn sẽ là món đồ không thể thiếu mỗi khi bạn chạy ù ra ngoài mua đồ hay đi ăn trưa cùng đồng nghiệp.",
+      "rating": 4.8,
+      "reviewCount": 150,
+      "design": [
+        {
+          "name": "Mẫu 1",
+          "img": "https://i.pinimg.com/736x/39/3c/bc/393cbcc89ad6d6b9c0083d3453210e53.jpg"
+        },
+        {
+          "name": "Mẫu 2",
+          "img": "https://i.pinimg.com/736x/4d/1a/15/4d1a15c8878251a0f971b454d3b46427.jpg"
+        },
+        {
+          "name": "Mẫu 3",
+          "img": "https://i.pinimg.com/1200x/ed/28/d1/ed28d127b4448351715a1aa1e8f5fa37.jpg"
+        },
+        {
+          "name": "Mẫu 4",
+          "img": "https://i.pinimg.com/736x/63/11/b6/6311b6a3cc00c67687c08d1614995877.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ốp lưng điện thoại handmade",
+      "category": "Ốp lưng điện thoại",
+      "price": 75000,
+      "sold": 77,
+      "thumbnail": "https://i.pinimg.com/1200x/61/a1/04/61a104e77ab1c0167a0e755f2ba09258.jpg",
+      "desc": "Thay vì những mẫu ốp nhựa đại trà, tại sao không mặc cho điện thoại một chiếc áo mới đầy nghệ thuật? Từng chi tiết đính kết thủ công sẽ biến chiếc điện thoại khô khan thành một tác phẩm nghệ thuật thu nhỏ ngay trên tay bạn.",
+      "rating": 4.5,
+      "reviewCount": 100,
+      "design": [
+        {
+          "name": "Mẫu 1",
+          "img": "https://i.pinimg.com/736x/dd/d6/cf/ddd6cfe7117b8e0c3ea4b0b9295c56e1.jpg"
+        },
+        {
+          "name": "Mẫu 2",
+          "img": "https://i.pinimg.com/736x/9f/01/79/9f017959fc8ad6b9c394eaa089cc2bf0.jpg"
+        },
+        {
+          "name": "Mẫu 3",
+          "img": "https://i.pinimg.com/736x/ce/3b/fa/ce3bfaf031f3632d4cccf97073d71870.jpg"
+        },
+        {
+          "name": "Mẫu 4",
+          "img": "https://i.pinimg.com/736x/6d/8f/b5/6d8fb5ebe6f129622481a3f1ceb9b3f2.jpg"
+        }
+      ]
+    },
+    {
+      "code": "SP004",
+      "name": "Dây đeo điện thoại",
+      "category": "Dây đeo điện thoại",
+      "price": 350000,
+      "stock": 25,
+      "thumbnail": "https://i.pinimg.com/1200x/97/dd/f3/97ddf3f727c372666a39fe580513022e.jpg",
+      "id": 8,
+      "image": "https://i.pinimg.com/1200x/97/dd/f3/97ddf3f727c372666a39fe580513022e.jpg"
+    },
+    {
+      "id": 9,
+      "code": "SP006",
+      "name": "Móc khóa",
+      "category": "Móc khóa",
+      "price": 300000,
+      "stock": 25,
+      "image": "https://i.pinimg.com/736x/de/9d/06/de9d0648d382ec8f35cb077ea4087149.jpg"
+    },
+    {
+      "id": 10,
+      "code": "Hiếu test",
+      "name": "ewewr",
+      "price": 0,
+      "stock": 0,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1779979609/s1jjpwoxwzve7vv6bpcs.png",
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1779979609/s1jjpwoxwzve7vv6bpcs.png"
+    },
+    {
+      "code": "Hiếu test-copy",
+      "name": "ewewr",
+      "price": 0,
+      "stock": 1,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1779979609/s1jjpwoxwzve7vv6bpcs.png",
+      "id": 11,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1779979609/s1jjpwoxwzve7vv6bpcs.png"
+    },
+    {
+      "code": "SP004-copy",
+      "name": "Dây đeo điện thoại",
+      "category": "Dây đeo điện thoại",
+      "price": 350000,
+      "stock": 25,
+      "thumbnail": "https://i.pinimg.com/1200x/97/dd/f3/97ddf3f727c372666a39fe580513022e.jpg",
+      "id": 12,
+      "image": "https://i.pinimg.com/1200x/97/dd/f3/97ddf3f727c372666a39fe580513022e.jpg"
+    },
+    {
+      "code": "DC001",
+      "name": "DÂY CHUYỀN",
+      "category": "Dây chuyền",
+      "price": 129000,
+      "stock": 11,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781083428/vmzudmsouwu7u83fxlc3.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781083428/vmzudmsouwu7u83fxlc3.jpg"
+      ],
+      "videos": [],
+      "id": 1781083431573,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781083428/vmzudmsouwu7u83fxlc3.jpg"
+    },
+    {
+      "code": "DC01",
+      "name": "Dây chuyền sóng biển",
+      "category": "Dây chuyền",
+      "price": 99000,
+      "stock": 11,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781148875/i7049wayvmzqm60kq1wa.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781148875/i7049wayvmzqm60kq1wa.jpg"
+      ],
+      "videos": [],
+      "id": 1781148885629,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781148875/i7049wayvmzqm60kq1wa.jpg"
+    },
+    {
+      "code": "VT001",
+      "name": "Vòng tay sao biển",
+      "category": "Vòng tay",
+      "price": 59000,
+      "stock": 11,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781151126/eqakafyxiloltil6awyv.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781151126/eqakafyxiloltil6awyv.jpg"
+      ],
+      "videos": [],
+      "id": 1781151130400,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781151126/eqakafyxiloltil6awyv.jpg"
+    },
+    {
+      "code": "VT11",
+      "name": "Vòng tay sò-ngọc trai",
+      "category": "Vòng tay",
+      "price": 69000,
+      "stock": 11,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781251828/szp30z2nb2f3zmvmjlbs.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781251828/szp30z2nb2f3zmvmjlbs.jpg"
+      ],
+      "videos": [],
+      "id": 1781251851435,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781251828/szp30z2nb2f3zmvmjlbs.jpg"
+    },
+    {
+      "code": "VT005",
+      "name": "Vòng tay",
+      "category": "Vòng tay",
+      "price": 52900,
+      "stock": 11,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781754677/swhtleezfzyidjkicqjr.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781754677/swhtleezfzyidjkicqjr.jpg"
+      ],
+      "videos": [],
+      "id": 1781754688731,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781754677/swhtleezfzyidjkicqjr.jpg"
+    },
+    {
+      "code": "MK001",
+      "name": "Móc khóa xinh xắn",
+      "category": "Móc khóa",
+      "price": 46000,
+      "stock": 3,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764548/xtboenghnpsqeitxtqsi.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764548/xtboenghnpsqeitxtqsi.jpg"
+      ],
+      "videos": [],
+      "id": 1781764582376,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764548/xtboenghnpsqeitxtqsi.jpg"
+    },
+    {
+      "code": "DDT001",
+      "name": "Dây đeo điện thoại cúc họa mi",
+      "category": "Dây đeo điện thoại",
+      "price": 869000,
+      "stock": 4,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764637/dwc0ub4b3p2l5vqnciop.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764637/dwc0ub4b3p2l5vqnciop.jpg"
+      ],
+      "videos": [],
+      "id": 1781764658254,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764637/dwc0ub4b3p2l5vqnciop.jpg"
+    },
+    {
+      "code": "VCT001",
+      "name": "Ví cầm tay thỏ hồng",
+      "category": "Ví cầm tay",
+      "price": 142000,
+      "stock": 5,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764715/civ9ruwdsrdqmw2xl3wy.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764715/civ9ruwdsrdqmw2xl3wy.jpg"
+      ],
+      "videos": [],
+      "id": 1781764736952,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781764715/civ9ruwdsrdqmw2xl3wy.jpg"
+    },
+    {
+      "code": "VT007",
+      "name": "Vòng tay charm hoa & ngôi sao",
+      "category": "Vòng tay",
+      "price": 57000,
+      "stock": 10,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772244/zbtcskbvera5m3urzzfn.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772244/zbtcskbvera5m3urzzfn.jpg"
+      ],
+      "videos": [],
+      "id": 1781772288895,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772244/zbtcskbvera5m3urzzfn.jpg"
+    },
+    {
+      "code": "VT008",
+      "name": "Vòng tay thạch trong suốt",
+      "category": "Vòng tay",
+      "price": 58900,
+      "stock": 5,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772308/u7jrmxxeskacvzwlinvg.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772308/u7jrmxxeskacvzwlinvg.jpg"
+      ],
+      "videos": [],
+      "id": 1781772342085,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772308/u7jrmxxeskacvzwlinvg.jpg"
+    },
+    {
+      "code": "VT009",
+      "name": "Vòng tay nút sáng tạo",
+      "category": "Vòng tay",
+      "price": 62000,
+      "stock": 7,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772374/b5zislwotyrvpycmje9h.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772374/b5zislwotyrvpycmje9h.jpg"
+      ],
+      "videos": [],
+      "id": 1781772438409,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772374/b5zislwotyrvpycmje9h.jpg"
+    },
+    {
+      "code": "DC003",
+      "name": "Dây chuyền charm ngựa đơn gainr",
+      "category": "Dây chuyền",
+      "price": 89500,
+      "stock": 6,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772467/kf3hfhll1w387k1rm94b.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772467/kf3hfhll1w387k1rm94b.jpg"
+      ],
+      "videos": [],
+      "id": 1781772529122,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772467/kf3hfhll1w387k1rm94b.jpg"
+    },
+    {
+      "code": "DC002",
+      "name": "Dây chuyền sò xinh xắn",
+      "category": "Dây chuyền",
+      "price": 95000,
+      "stock": 12,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772548/d735hvdgotntiecb9j6n.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772548/d735hvdgotntiecb9j6n.jpg"
+      ],
+      "videos": [],
+      "id": 1781772595370,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772548/d735hvdgotntiecb9j6n.jpg"
+    },
+    {
+      "code": "VCT002",
+      "name": "Ví cầm tay mèo kitty đáng iu",
+      "category": "Ví cầm tay",
+      "price": 105900,
+      "stock": 0,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772719/gury67mmhzdyp3yxzf5h.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772719/gury67mmhzdyp3yxzf5h.jpg"
+      ],
+      "videos": [],
+      "id": 1781772768720,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772719/gury67mmhzdyp3yxzf5h.jpg"
+    },
+    {
+      "code": "DDT002",
+      "name": "Dây điện thoai charm táo dễ thương",
+      "category": "Dây đeo điện thoại",
+      "price": 39000,
+      "stock": 11,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772861/uwcpdrfljcucxi92tifw.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772861/uwcpdrfljcucxi92tifw.jpg"
+      ],
+      "videos": [],
+      "id": 1781772954684,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781772861/uwcpdrfljcucxi92tifw.jpg"
+    },
+    {
+      "code": "VCT004",
+      "name": "Ví chấm bi xinh xắn",
+      "category": "Ví cầm tay",
+      "price": 102000,
+      "stock": 5,
+      "thumbnail": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781773077/npl5tm6zclotg9sszobk.jpg",
+      "images": [
+        "https://res.cloudinary.com/dayttjvyi/image/upload/v1781773077/npl5tm6zclotg9sszobk.jpg"
+      ],
+      "videos": [],
+      "id": 1781773113883,
+      "image": "https://res.cloudinary.com/dayttjvyi/image/upload/v1781773077/npl5tm6zclotg9sszobk.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "HD001",
+      "customer": "pig@gmail.com",
+      "total": 500000,
+      "status": "Đang giao"
+    },
+    {
+      "id": "HD002",
+      "customer": "rabbit@gmail.com",
+      "total": 350000,
+      "status": "Đang giao"
+    },
+    {
+      "id": "HD003",
+      "customer": "cat@gmail.com",
+      "total": 700000,
+      "status": "Đã giao"
+    },
+    {
+      "id": "HD1780992554093",
+      "customer": {
+        "fullName": "KIM THU",
+        "email": "kimthunguyen231@gmail.com",
+        "phone": "0362289360",
+        "address": "11",
+        "province": "Tỉnh Tiền Giang",
+        "district": "Thành phố Gò Công",
+        "ward": "Phường Long Hưng"
+      },
+      "items": [
+        {
+          "name": "Ví cầm tay handmade",
+          "price": 105000,
+          "thumbnail": "https://i.pinimg.com/736x/3b/f7/07/3bf707c5ccaae10c90e0e187a02c80c9.jpg",
+          "charm": "",
+          "note": "",
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "COD",
+      "discountCode": "SALE10",
+      "discountValue": 10500,
+      "total": 94500,
+      "status": "Đang giao",
+      "createdAt": "2026-06-09T08:09:14.093Z"
+    },
+    {
+      "id": "HD1780994372133",
+      "customer": {
+        "fullName": "Kim Thu",
+        "email": "nguyenthu1101@gmail.com",
+        "phone": "0362289360",
+        "address": "11",
+        "province": "Tỉnh Hà Giang",
+        "district": "Huyện Mèo Vạc",
+        "ward": "Thị trấn Mèo Vạc"
+      },
+      "items": [
+        {
+          "name": "Ốp lưng điện thoại handmade",
+          "price": 75000,
+          "thumbnail": "https://i.pinimg.com/1200x/61/a1/04/61a104e77ab1c0167a0e755f2ba09258.jpg",
+          "design": {
+            "name": "Mẫu 1",
+            "img": "https://i.pinimg.com/736x/dd/d6/cf/ddd6cfe7117b8e0c3ea4b0b9295c56e1.jpg"
+          },
+          "charm": "",
+          "note": "",
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "COD",
+      "discountCode": "SALE20",
+      "discountValue": 15000,
+      "total": 60000,
+      "status": "Đã giao",
+      "createdAt": "2026-06-09T08:39:32.134Z"
+    },
+    {
+      "id": "HD1781153457862",
+      "customer": {
+        "fullName": "kthu",
+        "email": "kimthunguyen231@gmail.com",
+        "phone": "0362289360",
+        "address": "11",
+        "province": "Tỉnh Tuyên Quang",
+        "district": "Huyện Na Hang",
+        "ward": "Xã Sinh Long"
+      },
+      "items": [
+        {
+          "name": "Vòng tay handmade",
+          "price": 75000,
+          "thumbnail": "https://i.pinimg.com/736x/e8/a1/91/e8a191fdf51791a08ecc74d1c320f6c8.jpg",
+          "charm": "",
+          "note": "",
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "COD",
+      "discountCode": "SALE10",
+      "discountValue": 7500,
+      "total": 67500,
+      "status": "Đã giao",
+      "createdAt": "2026-06-11T04:50:57.862Z"
+    },
+    {
+      "id": "HD1781171798782",
+      "customer": {
+        "fullName": "Kim Thu",
+        "email": "test@gmail.com",
+        "phone": "0362256348",
+        "address": "11",
+        "province": "Tỉnh Tiền Giang",
+        "district": "Thành phố Gò Công",
+        "ward": "Phường Long Hưng"
+      },
+      "items": [
+        {
+          "name": "Ví cầm tay handmade",
+          "price": 105000,
+          "thumbnail": "https://i.pinimg.com/736x/3b/f7/07/3bf707c5ccaae10c90e0e187a02c80c9.jpg",
+          "charm": "",
+          "note": "",
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "COD",
+      "discountCode": "SALE10",
+      "discountValue": 10500,
+      "total": 94500,
+      "status": "Đã giao",
+      "createdAt": "2026-06-11T09:56:38.782Z"
+    },
+    {
+      "id": "HD1781259889234",
+      "customer": {
+        "fullName": "thu",
+        "email": "test3@gmail.com",
+        "phone": "0362278564",
+        "address": "11",
+        "province": "Tỉnh Hà Giang",
+        "district": "Huyện Mèo Vạc",
+        "ward": "Thị trấn Mèo Vạc"
+      },
+      "items": [
+        {
+          "name": "Ví cầm tay handmade",
+          "price": 105000,
+          "thumbnail": "https://i.pinimg.com/736x/3b/f7/07/3bf707c5ccaae10c90e0e187a02c80c9.jpg",
+          "charm": "",
+          "note": "",
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "COD",
+      "discountCode": "SALE10",
+      "discountValue": 10500,
+      "total": 94500,
+      "status": "Chờ xác nhận",
+      "createdAt": "2026-06-12T10:24:49.234Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
