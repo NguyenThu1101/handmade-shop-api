@@ -1,4 +1,16 @@
 {
+  "notifications": [
+    {
+      "id": 1,
+      "orderId": 15,
+      "title": "Đơn hàng mới",
+      "message": "Khách vừa đặt đơn hàng #1",
+      "type": "NEW_ORDER",
+      "isRead": false,
+      "createdAt": "2026-06-09T08:09:14.093Z"
+    }
+  ],
+
   "users": [
     {
       "id": "1",
