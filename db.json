@@ -705,5 +705,8 @@
       "createdAt": "2026-06-12T10:24:49.234Z"
     }
   ],
+
+  "media": [],
+  
   "$schema": "./node_modules/json-server/schema.json"
 }
