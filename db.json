@@ -66,6 +66,9 @@
       "desc": "Chẳng cần cầu kỳ, chiếc vòng tay này chính là người bạn đồng hành 'vừa vặn' cho mọi bộ trang phục. Với màu sắc nhã nhặn và đường nét thủ công tỉ mỉ, vòng tay mang lại cảm giác ấm áp, giúp cổ tay bạn trông thanh mảnh và cuốn hút hơn.",
       "rating": 4.5,
       "reviewCount": 120,
+      "isSale": true,
+      "discountPercent": 30,
+      "originalPrice": 75000,
       "design": [
         {
           "name": "Mẫu 1",
@@ -97,6 +100,9 @@
       "desc": "Sợi dây chuyền thanh mảnh giúp tôn lên xương quai xanh quyến rũ. Đây là món phụ kiện hoàn hảo để kết hợp cùng những chiếc áo phông đơn giản hay váy hoa nhí, mang lại cho bạn vẻ ngoài ngọt ngào và tràn đầy năng lượng.",
       "rating": 4.5,
       "reviewCount": 80,
+      "isSale": true,
+      "discountPercent": 25,
+      "originalPrice": 89000,
       "design": [
         {
           "name": "Mẫu 1",
@@ -128,6 +134,9 @@
       "desc": "Một 'vũ khí' nhỏ nhưng có võ giúp mái tóc gọn gàng mà vẫn điệu đà. Kẹp tóc handmade với thiết kế độc bản sẽ giúp bạn nổi bật trong những tấm hình selfie và giữ cho gương mặt luôn bừng sáng, tươi tắn cả ngày dài.",
       "rating": 4.3,
       "reviewCount": 80,
+      "isSale": true,
+      "discountPercent": 40,
+      "originalPrice": 25000,
       "design": [
         {
           "name": "Mẫu 1",
@@ -159,6 +168,9 @@
       "desc": "Để những chùm chìa khóa hay balo không còn đơn điệu, một chiếc móc khóa nhỏ xinh sẽ mang lại niềm vui mỗi khi bạn nhìn thấy. Đây cũng là món quà 'nhỏ mà có võ' để dành tặng hội bạn thân hoặc 'người ấy' đó nha!",
       "rating": 4.6,
       "reviewCount": 110,
+      "isSale": true,
+      "discountPercent": 35,
+      "originalPrice": 59000,
       "design": [
         {
           "name": "Mẫu 1",
