@@ -543,24 +543,6 @@
   ],
   "orders": [
     {
-      "id": "HD001",
-      "customer": "pig@gmail.com",
-      "total": 500000,
-      "status": "Đang giao"
-    },
-    {
-      "id": "HD002",
-      "customer": "rabbit@gmail.com",
-      "total": 350000,
-      "status": "Đang giao"
-    },
-    {
-      "id": "HD003",
-      "customer": "cat@gmail.com",
-      "total": 700000,
-      "status": "Đã giao"
-    },
-    {
       "id": "HD1780992554093",
       "customer": {
         "fullName": "KIM THU",
